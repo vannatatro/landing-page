@@ -56,7 +56,8 @@
  button {
     background: #3882f6;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 14px;
+    border: none;
     border-radius: 6px;
     border-color: #3882f6;
     padding: 5px 25px;
@@ -158,7 +159,7 @@
 /* Section 3 */
 .section3 {
    background: #E5E7EB;
-   padding: 150px;
+   padding: 50px 200px 50px 200px;
 }
 
 .quote {
@@ -173,7 +174,68 @@ em {
 .author {
    background: transparent;
    text-align: right;
-   margin-top: -20px;
    font-size: 18px;
+   margin-top: -15px;
 }
  
+/* Section 4 */
+/* White outer portion */
+.section4 {
+   background: white;
+   padding:100px;
+}
+
+/* Blue inner portion */
+.container3 {
+   background: #3882f6;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   padding: 20px 40px 20px 40px;
+}
+
+/* Button */
+.section4 button {
+   border: none;
+   border: solid;
+   border-color: white;
+   border-width: 1px;
+   height: 30px;
+   font-size: 14px;
+}
+
+.section6 {
+   background: transparent;
+   display: flex;
+   align-items: center;
+}
+
+/* Just the white text */
+.section5 {
+   background: transparent;
+
+}
+
+.section5 h1 {
+   color: #F9FAF8;
+   background: transparent;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.section5 p {
+   color: #F9FAF8;
+   background: transparent;
+   font-size: 12px;
+   font-weight: 500;
+   margin-top: -5px;
+}
+
+/* Footer */
+.footer {
+   color: #F9FAF8;
+   text-align: center;
+   font-size: 12px;
+   padding: 15px;
+}
