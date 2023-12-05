@@ -1,0 +1,74 @@
+/* Everything */
+* {
+    font-family: sans-serif;
+    background: #1F2937;
+}
+
+/* Header */
+ .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 48px;
+    margin-top: -48px;
+    margin-bottom: -48px;
+ }
+
+ a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px;
+ }
+
+ .header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+ }
+
+ /* Section 1 */
+/* Whole section */
+ .section1 {
+    display: flex;
+    margin: 2px;
+    padding: 48px;
+    gap: 30px;
+ }
+ 
+ /* Text container */
+ .container1 {
+    flex: 1;
+ }
+
+ .section1 h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+ }
+
+ .section1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+ }
+
+ button {
+    background: #3882f6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: #3882f6;
+    padding: 5px 25px;
+
+ }
+
+ /* Placeholder */
+ .placeholder {
+    background: #93a1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+ }
+
+ /* Section 2 */
