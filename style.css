@@ -10,9 +10,9 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 48px;
-    margin-top: -48px;
-    margin-bottom: -48px;
+    padding: 150px;
+    margin-top: -150px;
+    margin-bottom: -200px;
  }
 
  a {
@@ -32,9 +32,9 @@
  .section1 {
     display: flex;
     margin: 2px;
-    padding: 48px;
+    padding: 150px;
     gap: 30px;
-    margin-bottom: 90px;
+    margin-top: -150px;
  }
  
  /* Text container */
@@ -66,7 +66,7 @@
 
  /* Placeholder */
  .placeholder {
-    background: #93a1b1;
+    background:#6D747D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@
 .container2 {
    background: white;
    display: flex;
-   padding: 100px;
+   padding: 100px 400px 100px 400px;
    margin-top: -120px;
    margin-bottom: -50px;
 }
@@ -159,7 +159,7 @@
 /* Section 3 */
 .section3 {
    background: #E5E7EB;
-   padding: 50px 200px 50px 200px;
+   padding: 100px 350px 100px 350px;
 }
 
 .quote {
@@ -183,6 +183,9 @@ em {
 .section4 {
    background: white;
    padding:100px;
+   display: flex;
+   flex: 1;
+   justify-content: center;
 }
 
 /* Blue inner portion */
@@ -190,9 +193,10 @@ em {
    background: #3882f6;
    border-radius: 8px;
    display: flex;
-   justify-content: center;
-   gap: 100px;
-   padding: 20px 40px 20px 40px;
+   align-self: center;
+   padding: 20px 60px 20px 60px;
+   width: 700px;
+   gap: 50px
 }
 
 /* Button */
@@ -202,29 +206,32 @@ em {
    border-color: white;
    border-width: 1px;
    height: 30px;
+   width: 115px;
    font-size: 14px;
 }
 
-.section6 {
+/* Button section */
+.container6 {
    background: transparent;
    display: flex;
-   align-items: center;
+   flex: 1;
+   align-self: center;
 }
 
-/* Just the white text */
-.section5 {
+/* White text section*/
+.container5 {
    background: transparent;
-
+   flex: 4;
 }
 
-.section5 h1 {
+.container5 h1 {
    color: #F9FAF8;
    background: transparent;
    font-size: 18px;
    font-weight: 500;
 }
 
-.section5 p {
+.container5 p {
    color: #F9FAF8;
    background: transparent;
    font-size: 12px;
