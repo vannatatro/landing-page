@@ -18,8 +18,8 @@
  a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 10px;
  }
 
  .header h1 {
@@ -74,7 +74,6 @@
 
  /* Section 2 */
  #section2 {
-   border-style: dashed;
    background: white;
    justify-content: center;
  }
@@ -82,7 +81,11 @@
  #section2 h1 {
    background: transparent;
    text-align: center;
+   color: #1F2937;
+   font-size: 36px;
+   font-weight: 900;
  }
+
 
 .container2 {
    background: white;
@@ -114,6 +117,7 @@
    color:#93a1b1;
    text-align: center;
    margin-top: -10px;
+   font-size: 12px;
 }
 
 /* Individual image info boxes */
@@ -151,4 +155,25 @@
    padding:10px;
 }
 
+/* Section 3 */
+.section3 {
+   background: #E5E7EB;
+   padding: 150px;
+}
+
+.quote {
+   background: transparent;
+   font-size: 36px;
+   font-weight: 100;
+}
+
+em {
+   background: transparent;
+}
+.author {
+   background: transparent;
+   text-align: right;
+   margin-top: -20px;
+   font-size: 18px;
+}
  
